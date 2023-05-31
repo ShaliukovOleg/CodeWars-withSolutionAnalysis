@@ -31,6 +31,7 @@ const sequenceSum = (begin, end, step) => {
     return result; // При выходе из цикла вернем значение переменной. 
 };
 
+
 console.log(sequenceSum(-6, -2, 2)); // -12
 console.log(sequenceSum(1, 6, 3)); // 5
 console.log(sequenceSum(2, 18, 4)); // 50

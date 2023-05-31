@@ -24,8 +24,7 @@ function maxProduct(a) {
     result = firstNum * secondNum; // Перемножаем их
     return result; // Возвращаем результат
 }
-console.log(maxProduct([7, 8, 9]));
-// Данный вариант рабочий, но не для больших массивов (долго прогружает все значения)
+console.log(maxProduct([7, 8, 9])); // Данный вариант рабочий, но не для больших массивов (долго прогружает все значения)
 
 function maxProduct(a) {
     let bigNum = Math.max.apply(Math, a);
