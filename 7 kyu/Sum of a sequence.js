@@ -1,10 +1,20 @@
 /* 
 Description
 Your task is to write a function which returns the sum of a sequence of integers.
-
 The sequence is defined by 3 non-negative values: begin, end, step.
+If begin value is greater than the end, your function should return 0. 
+If end is not the result of an integer number of steps, then don't add it to the sum. See the 4th example below.
 
-If begin value is greater than the end, your function should return 0. If end is not the result of an integer number of steps, then don't add it to the sum. See the 4th example below.
+*/
+
+/*
+
+Описание
+Ваша задача - написать функцию, возвращающую сумму последовательности целых чисел.
+Последовательность задается 3 неотрицательными значениями: begin, end, step.
+Если значение begin больше end, то функция должна возвращать 0. 
+Если end не является результатом целого числа шагов, то не надо добавлять его к сумме. Смотрите 4-й пример ниже.
+
 */
 
 /* 

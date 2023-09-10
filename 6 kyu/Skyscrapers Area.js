@@ -1,8 +1,8 @@
 /*
 
 We want to find the area of a set of buildings stacked close to each other.
-
-A matrix (an array of arrays) gives us a description of the building from above, where each number represents the height expressed in cubes 1*1*1, the cubes are stacked adjacent to each other.
+A matrix (an array of arrays) gives us a description of the building from above, 
+where each number represents the height expressed in cubes 1*1*1, the cubes are stacked adjacent to each other.
 
 For example:
 
@@ -23,8 +23,8 @@ Note: The floor of the building counts as area as well.
 /*
 
 Мы хотим найти площадь группы зданий, расположенных близко друг к другу.
-
-Матрица (массив массивов) дает нам описание здания сверху, где каждое число представляет высоту в кубах 1*1*1, кубы расположены рядом друг с другом.
+Матрица (массив массивов) дает нам описание здания сверху, 
+где каждое число представляет высоту в кубах 1*1*1, кубы расположены рядом друг с другом.
 
 Например:
 

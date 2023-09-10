@@ -6,8 +6,6 @@ Take this new list and return the sum of it, rounded to two decimal places.
 
 The list will never be empty and will only contain values that are greater than or equal to zero.
 
-Good luck!
-
 */
 
 /*

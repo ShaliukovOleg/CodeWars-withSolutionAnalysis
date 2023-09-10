@@ -7,13 +7,6 @@ We'll call this the dropWhile function. It accepts two arguments.
 The first is the sequence of values, and the second is the predicate function. 
 The function does not change the value of the original sequence.
 
-function isEven(num) {
-  return num % 2 === 0;
-}
-var seq = [2,4,6,8,1,2,5,4,3,2];
-
-dropWhile(seq, isEven) // -> [1,2,5,4,3,2]
-
 Your task is to implement the dropWhile function. 
 If you've got a span function lying around, this is a one-liner! 
 Alternatively, if you have a takeWhile function on your hands, then combined with the dropWhile function, 
@@ -32,17 +25,21 @@ many of which can be implemented in terms of each other.
 Второй аргумент - функция с правилом.
 Функция не изменяет значения исходной последовательности.
 
+Ваша задача — реализовать функцию dropWhile.
+Можно реализовать функцию в одной строке.
+В этом прелесть функционального программирования: есть целый ряд полезных функций,
+многие из которых могут быть реализованы друг с другом.
+
+*/
+
+/*
+
 function isEven(num) {
   return num % 2 === 0;
 }
 var seq = [2,4,6,8,1,2,5,4,3,2];
 
 dropWhile(seq, isEven) // -> [1,2,5,4,3,2]
-
-Ваша задача — реализовать функцию dropWhile.
-Можно реализовать функцию в одной строке.
-В этом прелесть функционального программирования: есть целый ряд полезных функций,
-многие из которых могут быть реализованы друг с другом.
 
 */
 

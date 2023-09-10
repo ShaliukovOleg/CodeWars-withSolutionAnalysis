@@ -2,11 +2,6 @@
 
 Given an integer n and two other values, build an array of size n filled with these two values alternating.
 
-Examples
-5, true, false     -->  [true, false, true, false, true]
-10, "blue", "red"  -->  ["blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red"]
-0, "one", "two"    -->  []
-
 */
 
 /*
@@ -17,9 +12,14 @@ Examples
 -Второе значение (неважно что, строка, цифра или логическое выражение) (secondValue)
 Требуется создать массив и заполнить его по очереди двумя значениями, длинна массива будет целое число (n)
 
-Пример:
+*/
 
+/*
+
+Examples
 5, true, false     -->  [true, false, true, false, true]
+10, "blue", "red"  -->  ["blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red"]
+0, "one", "two"    -->  []
 
 */
 
